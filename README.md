@@ -11,7 +11,7 @@ The repository separates the concerns of physical simulation, sensor modeling, e
 ```text
 Simulated Vehicle (True State)
        ↓
-  Simulated IMU (Adds Noise/Bias)
+Simulated IMU (Adds Noise/Bias)
        ↓
 Mahony Estimator (Quaternion-based)
        ↓
@@ -23,7 +23,7 @@ Control Torque
        ↓
 Simulated Plant (Rigid Body Dynamics)
        ↓
-  Vehicle State
+Vehicle State
 ```
 
 ## Engineering Decisions
